@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zentus Edit | نسخه 1.1</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    @font-face {
+      font-family: 'Doran';
+      src: url('fonts/Doran.woff2') format('woff2'),
+           url('fonts/Doran.ttf') format('truetype');
+      font-display: swap;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Particle Background -->
+  <canvas id="bgCanvas"></canvas>
+
+  <!-- Header -->
+  <header class="glass-header">
+    <div class="logo" id="logo">Zentus<span>Edit</span></div>
+    <nav>
+      <a href="#home">خانه</a>
+      <a href="#about">درباره</a>
+      <a href="#services">خدمات</a>
+      <a href="#portfolio">نمونه‌کارها</a>
+      <a href="#contact">تماس</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1 id="heroLogo">Zentus Edit</h1>
+      <p>جایی که احساس، نور و هنر در ادیت یکی می‌شوند.</p>
+      <a href="#portfolio" class="btn">مشاهده نمونه‌کارها</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="glass-section">
+    <h2>درباره ما</h2>
+    <p>زنتوس ادیت ترکیبی از خلاقیت و احساس است. ما تصاویر را به اثری هنری، مدرن و احساسی تبدیل می‌کنیم تا داستان واقعی شما را بازگو کنند.</p>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="glass-section">
+    <h2>خدمات ما</h2>
+    <div class="service-boxes">
+      <div class="service">
+        <h3>ادیت هنری</h3>
+        <p>تبدیل عکس به اثری هنری با نورپردازی خاص و حس خلاقانه.</p>
+      </div>
+      <div class="service">
+        <h3>ادیت احساسی</h3>
+        <p>برجسته‌کردن حس، چهره و فضا با رنگ‌های عمیق و داستانی.</p>
+      </div>
+      <div class="service">
+        <h3>ادیت مدرن</h3>
+        <p>سبک مدرن و مینیمال با جلوه‌های نوری نئون و طراحی دیجیتال.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="gallery">
+    <h2>نمونه‌کارها</h2>
+    <div class="images">
+      <div class="card"><img src="images/sample1.jpg" alt="Sample 1"></div>
+      <div class="card"><img src="images/sample2.jpg" alt="Sample 2"></div>
+      <div class="card"><img src="images/sample3.jpg" alt="Sample 3"></div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="glass-section">
+    <h2>تماس و سفارش</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="نام شما" required>
+      <input type="email" placeholder="ایمیل شما" required>
+      <textarea placeholder="توضیحات سفارش..." required></textarea>
+      <button type="submit" class="btn">ارسال</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Zentus Edit | طراحی با ❤️ و خلاقیت</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
